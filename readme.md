@@ -51,6 +51,8 @@ All equipment, including armor, additional gear, and special gear, share the sam
       diff: 1, // INTEGER
       mats: ["string", 1], // ARRAY<STRING, INT>
     }, // OBJECT<key: value>
+    type: "string", // Item type (E.g: Staff, Bow, Dagger, Arrow, Armor, etc)
+    category: "string", // Item Category (E.g: Main Weapon, Body Wear, etc)
   },
 ];
 ```
@@ -103,7 +105,7 @@ For Equipment the key of object can be defined as:
    The "origin" key refers to the item's source, which is defined by a code. The code indicates whether the item was crafted by an NPC, crafted by a player, or dropped by mobs. The code consisted number: 0 (Player's craft), 1 (NPC's craft), 2 (Drop from mobs).
    This code can be used as a list or array index, or as an object key, as shown in the examples below:
 
-   &nbsp;
+&nbsp;
 
    ```javascript
    // Array or list:
@@ -117,7 +119,7 @@ For Equipment the key of object can be defined as:
    }
    ```
 
-   &nbsp;
+&nbsp;
 
 3. base key:
    The "base" key refers to base WATK or DEF of equipments. WATK refers to all Weapon and Sub-weapon (excluding Shield).
@@ -131,7 +133,7 @@ For Equipment the key of object can be defined as:
    The amount key referes to items sell and process value.
    Index 0: Spina value, Index 1: Process material value, index 2: Process material label.
 
-   &nbsp;
+&nbsp;
 
    ```javascript
    // array examples => value type = [Integer, Integer, String]
@@ -139,13 +141,13 @@ For Equipment the key of object can be defined as:
    const examples = [100, 20, "Wood"];
    ```
 
-   &nbsp;
+&nbsp;
 
 7. stats key:
    The "stats" key refers to status of items, the "general" key is the default status of items, conditional status like "Shield Only" will be added as new key and status.
    The examples of data can be seen below:
 
-   &nbsp;
+&nbsp;
 
    ```javascript
    // Each key contain array, which has even number length of data.
@@ -158,14 +160,14 @@ For Equipment the key of object can be defined as:
    };
    ```
 
-   &nbsp;
+&nbsp;
 
 8. source key:
    The "source" key refers to the specific details of the weapon’s origin. It indicates whether the item comes from an NPC or a player. For NPCs, this includes rewards from limited-time events, with additional information about the event’s location. For items obtained from mobs, the name, level, location, and dye will be provided if available.
    Weapon Dye will be provided soon.
    Example can be seen below:
 
-   &nbsp;
+&nbsp;
 
    ```javascript
    // source examples, [name, ?lvl, location] => type [String, ?Integer, String, Dye[]]
@@ -184,12 +186,12 @@ For Equipment the key of object can be defined as:
    ];
    ```
 
-   &nbsp;
+&nbsp;
 
 9. recipe key:
    The "recipe" key only available for Player and NPC (Not including reward exchanges for item from limited time event). Below is the examples of the "recipe" key value:
 
-   &nbsp;
+&nbsp;
 
    ```javascript
    const examples = {
@@ -202,7 +204,17 @@ For Equipment the key of object can be defined as:
    };
    ```
 
-   &nbsp;
+&nbsp;
+
+10. type key:
+    The item type, e.g: One Handed Sword, Two Handed Sword, Staff, Bowgun, Katana, etc.
+
+&nbsp;
+
+11. category key:
+    The item category, e.g: Main Weapon, Sub Weapon, Body Wear, etc.
+
+&nbsp;
 
 ### Crysta JSON Structure
 
@@ -214,7 +226,7 @@ As for Crysta or Xtall the key of object can be defined as:
    the "type" key refers to Crysta classification, the classification can be done with form of object/hashtable, map/hashmap, and array/list. Type: -1 mean the classification was unidentified or unknown.
    Below is the crysta classification in form of object:
 
-   &nbsp;
+&nbsp;
 
    ```javascript
    const examples = {
@@ -231,9 +243,9 @@ As for Crysta or Xtall the key of object can be defined as:
    };
    ```
 
-   &nbsp;
+&nbsp;
    The Crysta classification in form of array or list:
-   &nbsp;
+&nbsp;
 
    ```javascript
    const examples = [
@@ -250,7 +262,7 @@ As for Crysta or Xtall the key of object can be defined as:
    ];
    ```
 
-   &nbsp;
+&nbsp;
 
 3. amount key:
    The amount key referes to items sell and process value.
@@ -261,13 +273,13 @@ As for Crysta or Xtall the key of object can be defined as:
    const examples = [1, 1, "Colon"];
    ```
 
-   &nbsp;
+&nbsp;
 
 4. source key:
    The "source" key refers to the specific details of the crysta origin. this includes rewards and crafts from limited-time events, with additional information about the event’s location. For items obtained from mobs, the name, level, and location will be provided if available.
    Example can be seen below:
 
-   &nbsp;
+&nbsp;
 
    ```javascript
    // source examples, [name, ?lvl, location] => type [String, ?Integer, String]
@@ -277,12 +289,12 @@ As for Crysta or Xtall the key of object can be defined as:
    const examples2 = ["NPC", null, "Sofya: Synthesis"];
    ```
 
-   &nbsp;
+&nbsp;
 
 5. recipe key:
    The "recipe" key only available for Player and NPC (Not including reward exchanges for item from limited time event). Below is the examples of the "recipe" key value:
 
-   &nbsp;
+&nbsp;
 
    ```javascript
    const examples = {
@@ -295,15 +307,15 @@ As for Crysta or Xtall the key of object can be defined as:
    };
    ```
 
-   &nbsp;
+&nbsp;
 
-   &nbsp;
+&nbsp;
 
    The modulo operator can be used on the Recipe's "mats" array to determine the label/name and quantity of each item. Alternatively, this can be achieved using a while loop with a +2 increment. The +2 increment works because the "mats" array length is always even.
 
    Examples:
 
-   &nbsp;
+&nbsp;
 
    ```javascript
    // Array examples
