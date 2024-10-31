@@ -15,6 +15,7 @@ The JSON structure is so dumb, i lost a braincell everytime i tried to read it! 
   - [JSON Data Docs and Definition](#json-data-docs-and-definition)
     - [Equipment JSON Structure](#equipment-json-structure-1)
     - [Crysta JSON Structure](#crysta-json-structure-1)
+  - [Patch Checker](#patch-checker)
   - [Closing](#closing)
 
 ---
@@ -107,17 +108,17 @@ For Equipment the key of object can be defined as:
 
 &nbsp;
 
-   ```javascript
-   // Array or list:
-   ["Player", "NPC", "Drop"]
+```javascript
+// Array or list:
+["Player", "NPC", "Drop"]
 
-   // Object or Hashtable:
-   {
-     "0" : "Player",
-     "1" : "NPC".
-     "2" : "Drop"
-   }
-   ```
+// Object or Hashtable:
+{
+  "0" : "Player",
+  "1" : "NPC".
+  "2" : "Drop"
+}
+```
 
 &nbsp;
 
@@ -135,11 +136,11 @@ For Equipment the key of object can be defined as:
 
 &nbsp;
 
-   ```javascript
-   // array examples => value type = [Integer, Integer, String]
+```javascript
+// array examples => value type = [Integer, Integer, String]
 
-   const examples = [100, 20, "Wood"];
-   ```
+const examples = [100, 20, "Wood"];
+```
 
 &nbsp;
 
@@ -149,16 +150,16 @@ For Equipment the key of object can be defined as:
 
 &nbsp;
 
-   ```javascript
-   // Each key contain array, which has even number length of data.
-   // Even index = status label, Odd index = status value/quantity;
-   // [status_label, status_value] => type = [String, Float]
+```javascript
+// Each key contain array, which has even number length of data.
+// Even index = status label, Odd index = status value/quantity;
+// [status_label, status_value] => type = [String, Float]
 
-   const examples = {
-     general: ["ATK %", 5.0, "STR", 10.0, "STR %", 2.0],
-     "Shield Only": ["Guard Break %", 10.0],
-   };
-   ```
+const examples = {
+  general: ["ATK %", 5.0, "STR", 10.0, "STR %", 2.0],
+  "Shield Only": ["Guard Break %", 10.0],
+};
+```
 
 &nbsp;
 
@@ -169,22 +170,17 @@ For Equipment the key of object can be defined as:
 
 &nbsp;
 
-   ```javascript
-   // source examples, [name, ?lvl, location] => type [String, ?Integer, String, Dye[]]
-   // Mobs:
-   const examples1 = ["Colon", 5, "Rugio Ruins", []];
-   // Player:
-   const examples2 = ["Player", null, "N/A", []];
-   // NPC:
-   const examples3 = ["NPC", null, "Sofya: Blacksmith", []];
-   // Event Venue Exchange:
-   const examples4 = [
-     "Snowball Event NPC",
-     null,
-     "Snowball Mini Game Venue",
-     [],
-   ];
-   ```
+```javascript
+// source examples, [name, ?lvl, location] => type [String, ?Integer, String, Dye[]]
+// Mobs:
+const examples1 = ["Colon", 5, "Rugio Ruins", []];
+// Player:
+const examples2 = ["Player", null, "N/A", []];
+// NPC:
+const examples3 = ["NPC", null, "Sofya: Blacksmith", []];
+// Event Venue Exchange:
+const examples4 = ["Snowball Event NPC", null, "Snowball Mini Game Venue", []];
+```
 
 &nbsp;
 
@@ -193,16 +189,16 @@ For Equipment the key of object can be defined as:
 
 &nbsp;
 
-   ```javascript
-   const examples = {
-     // item level
-     lvl: 190,
-     // item difficulty
-     diff: 200,
-     // list of mats to craft items, including spina [mats_label, mats_quantity] => type [String, Integer]
-     mats: ["Colon Nut", 30, "Kijimu Stick", 60, "[Book of Bullsh-]", 1],
-   };
-   ```
+```javascript
+const examples = {
+  // item level
+  lvl: 190,
+  // item difficulty
+  diff: 200,
+  // list of mats to craft items, including spina [mats_label, mats_quantity] => type [String, Integer]
+  mats: ["Colon Nut", 30, "Kijimu Stick", 60, "[Book of Bullsh-]", 1],
+};
+```
 
 &nbsp;
 
@@ -228,39 +224,39 @@ As for Crysta or Xtall the key of object can be defined as:
 
 &nbsp;
 
-   ```javascript
-   const examples = {
-     0: "Normal",
-     1: "Weapon",
-     2: "Armor",
-     3: "Additional Gear",
-     4: "Special Gear",
-     5: "Enhancer Normal",
-     6: "Enhancer Weapon",
-     7: "Enhancer Armor",
-     8: "Enhancer Additional Gear",
-     9: "Enhancer Special Gear",
-   };
-   ```
+```javascript
+const examples = {
+  0: "Normal",
+  1: "Weapon",
+  2: "Armor",
+  3: "Additional Gear",
+  4: "Special Gear",
+  5: "Enhancer Normal",
+  6: "Enhancer Weapon",
+  7: "Enhancer Armor",
+  8: "Enhancer Additional Gear",
+  9: "Enhancer Special Gear",
+};
+```
 
 &nbsp;
-   The Crysta classification in form of array or list:
+The Crysta classification in form of array or list:
 &nbsp;
 
-   ```javascript
-   const examples = [
-     "Normal",
-     "Weapon",
-     "Armor",
-     "Additional Gear",
-     "Special Gear",
-     "Enhancer Normal",
-     "Enhancer Weapon",
-     "Enhancer Armor",
-     "Enhancer Additional Gear",
-     "Enhancer Special Gear",
-   ];
-   ```
+```javascript
+const examples = [
+  "Normal",
+  "Weapon",
+  "Armor",
+  "Additional Gear",
+  "Special Gear",
+  "Enhancer Normal",
+  "Enhancer Weapon",
+  "Enhancer Armor",
+  "Enhancer Additional Gear",
+  "Enhancer Special Gear",
+];
+```
 
 &nbsp;
 
@@ -281,13 +277,13 @@ As for Crysta or Xtall the key of object can be defined as:
 
 &nbsp;
 
-   ```javascript
-   // source examples, [name, ?lvl, location] => type [String, ?Integer, String]
-   // Mobs:
-   const examples1 = ["Evil Lefina", 200, "El Scaro"];
-   // NPC:
-   const examples2 = ["NPC", null, "Sofya: Synthesis"];
-   ```
+```javascript
+// source examples, [name, ?lvl, location] => type [String, ?Integer, String]
+// Mobs:
+const examples1 = ["Evil Lefina", 200, "El Scaro"];
+// NPC:
+const examples2 = ["NPC", null, "Sofya: Synthesis"];
+```
 
 &nbsp;
 
@@ -296,81 +292,84 @@ As for Crysta or Xtall the key of object can be defined as:
 
 &nbsp;
 
-   ```javascript
-   const examples = {
-     // item level
-     lvl: 190,
-     // item difficulty
-     diff: 200,
-     // list of mats to craft items, including spina [mats_label, mats_quantity] => type [String, Integer]
-     mats: ["Colon Nut", 30, "Kijimu Stick", 60, "[Book of Bullsh-]", 1],
-   };
-   ```
+```javascript
+const examples = {
+  // item level
+  lvl: 190,
+  // item difficulty
+  diff: 200,
+  // list of mats to craft items, including spina [mats_label, mats_quantity] => type [String, Integer]
+  mats: ["Colon Nut", 30, "Kijimu Stick", 60, "[Book of Bullsh-]", 1],
+};
+```
 
 &nbsp;
 
 &nbsp;
 
-   The modulo operator can be used on the Recipe's "mats" array to determine the label/name and quantity of each item. Alternatively, this can be achieved using a while loop with a +2 increment. The +2 increment works because the "mats" array length is always even.
+The modulo operator can be used on the Recipe's "mats" array to determine the label/name and quantity of each item. Alternatively, this can be achieved using a while loop with a +2 increment. The +2 increment works because the "mats" array length is always even.
 
-   Examples:
+Examples:
 
 &nbsp;
 
-   ```javascript
-   // Array examples
-   const examples_mats = [
-     "Spina",
-     300,
-     "Colon Leaf",
-     20,
-     "[Book of Dancer]",
-     1,
-   ];
+```javascript
+// Array examples
+const examples_mats = ["Spina", 300, "Colon Leaf", 20, "[Book of Dancer]", 1];
 
-   // Using for Loop
-   const context = ["Name", "Quantity"];
+// Using for Loop
+const context = ["Name", "Quantity"];
 
-   for (let i = 0; i < examples_mats.length; i++) {
-     console.log(`${context[i % 2]} => ${examples_mats[i]}`);
-   }
+for (let i = 0; i < examples_mats.length; i++) {
+  console.log(`${context[i % 2]} => ${examples_mats[i]}`);
+}
 
-   /**
-    * output:
-    * Name => Spina
-    * Quantity => 300
-    * Name => Colon Leaf
-    * Quantity => 20
-    * Name => [Book of Dancer]
-    * Quantity => 1
-    */
+/**
+ * output:
+ * Name => Spina
+ * Quantity => 300
+ * Name => Colon Leaf
+ * Quantity => 20
+ * Name => [Book of Dancer]
+ * Quantity => 1
+ */
 
-   // Using while loop and +2 increment
+// Using while loop and +2 increment
 
-   let i = 1;
+let i = 1;
 
-   // "i" could be set as 0
-   // and change => value = examples_mats[i+1], label = examples_mats[i]
+// "i" could be set as 0
+// and change => value = examples_mats[i+1], label = examples_mats[i]
 
-   while (i < examples_mats.length) {
-     const label = examples_mats[i - 1];
-     const value = examples_mats[i];
-     console.log(`${label}: ${value}`);
-     i += 2;
-   }
+while (i < examples_mats.length) {
+  const label = examples_mats[i - 1];
+  const value = examples_mats[i];
+  console.log(`${label}: ${value}`);
+  i += 2;
+}
 
-   /**
-    * output:
-    * Spina: 300
-    * Colon Leaf: 20
-    * [Book of Dancer]: 1
-    */
-   ```
+/**
+ * output:
+ * Spina: 300
+ * Colon Leaf: 20
+ * [Book of Dancer]: 1
+ */
+```
 
 6. upgrade key:
    The "upgrade" key refers to the name of ancestor/previous crysta, this only available for Enhancer Crysta. In the future will be add serial code to connected enhancer crysta to it's ancestors, and add crysta descendant/next upgrade.
 
 ---
+
+## Patch Checker
+
+- patch 27 June 2024 (_checked_)
+- patch 11 July 2024 (_checked_)
+- patch 22 August 2024 (_Process_)
+- patch 29 August 2024 (_Process_)
+- patch 19 September 2024 (_Process_)
+- patch 10 October 2024 (_Process_)
+- patch 24 October 2024 (_Process_)
 
 ## Closing
 
