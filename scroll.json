@@ -1,184 +1,199 @@
 {
-    "version": 414956,
-    "data":[
-    {
-        "name": "Metal Ninjutsu Scroll",
-        "origin": -1,
-        "base": 0,
-        "stab": 0,
-        "pot": 0,
-        "amount": [
-            1,
-            2,
-            "Wood"
-        ],
-        "stats": {
-            "General": [
-                "Critical Rate",
-                5.0
-            ]
-        },
-        "source": [],
-        "recipe": ""
-    },
-    {
-        "name": "Fire Ninjutsu Scroll",
-        "origin": -1,
-        "base": 0,
-        "stab": 0,
-        "pot": 0,
-        "amount": [
-            1,
-            2,
-            "Wood"
-        ],
-        "stats": {
-            "General": [
-                "MATK %",
-                1.0,
-                "Magic Pierce %",
-                5.0
+    "version": 414997,
+    "data": [
+        {
+            "name": "Metal Ninjutsu Scroll",
+            "origin": -1,
+            "base": 0,
+            "stab": 0,
+            "pot": 0,
+            "amount": [
+                1,
+                2,
+                "Wood"
             ],
-            "Staff only": [
-                "MATK %",
-                1.0,
-                "Magic Pierce %",
-                5.0
-            ]
+            "stats": {
+                "General": [
+                    "Critical Rate",
+                    5.0
+                ]
+            },
+            "source": [],
+            "recipe": "",
+            "type": "Scroll",
+            "category": "Sub Weapon"
         },
-        "source": [],
-        "recipe": ""
-    },
-    {
-        "name": "Lightning Ninjutsu Scroll",
-        "origin": -1,
-        "base": 0,
-        "stab": 0,
-        "pot": 0,
-        "amount": [
-            1,
-            2,
-            "Wood"
-        ],
-        "stats": {
-            "General": [
-                "Stability %",
-                5.0,
-                "Accuracy %",
-                10.0
+        {
+            "name": "Fire Ninjutsu Scroll",
+            "origin": -1,
+            "base": 0,
+            "stab": 0,
+            "pot": 0,
+            "amount": [
+                1,
+                2,
+                "Wood"
             ],
-            "Katana only": [
-                "Stability %",
-                5.0,
-                "Accuracy %",
-                10.0
-            ]
+            "stats": {
+                "General": [
+                    "MATK %",
+                    1.0,
+                    "Magic Pierce %",
+                    5.0
+                ],
+                "Staff only": [
+                    "MATK %",
+                    1.0,
+                    "Magic Pierce %",
+                    5.0
+                ]
+            },
+            "source": [],
+            "recipe": "",
+            "type": "Scroll",
+            "category": "Sub Weapon"
         },
-        "source": [],
-        "recipe": ""
-    },
-    {
-        "name": "Water Ninjutsu Scroll",
-        "origin": -1,
-        "base": 0,
-        "stab": 0,
-        "pot": 0,
-        "amount": [
-            1,
-            2,
-            "Wood"
-        ],
-        "stats": {
-            "General": [
-                "Ailment Resistance %",
-                5.0,
-                "Aggro %",
-                -10.0
+        {
+            "name": "Lightning Ninjutsu Scroll",
+            "origin": -1,
+            "base": 0,
+            "stab": 0,
+            "pot": 0,
+            "amount": [
+                1,
+                2,
+                "Wood"
             ],
-            "Magic Device only": [
-                "Ailment Resistance %",
-                5.0,
-                "Aggro %",
-                -10.0
-            ]
+            "stats": {
+                "General": [
+                    "Stability %",
+                    5.0,
+                    "Accuracy %",
+                    10.0
+                ],
+                "Katana only": [
+                    "Stability %",
+                    5.0,
+                    "Accuracy %",
+                    10.0
+                ]
+            },
+            "source": [],
+            "recipe": "",
+            "type": "Scroll",
+            "category": "Sub Weapon"
         },
-        "source": [],
-        "recipe": ""
-    },
-    {
-        "name": "Earth Ninjutsu Scroll",
-        "origin": -1,
-        "base": 0,
-        "stab": 0,
-        "pot": 0,
-        "amount": [
-            1,
-            2,
-            "Wood"
-        ],
-        "stats": {
-            "General": [
-                "MaxHP %",
-                10.0,
-                "Fractional Barrier %",
-                10.0
+        {
+            "name": "Water Ninjutsu Scroll",
+            "origin": -1,
+            "base": 0,
+            "stab": 0,
+            "pot": 0,
+            "amount": [
+                1,
+                2,
+                "Wood"
             ],
-            "1-Handed Sword only": [
-                "MaxHP %",
-                10.0,
-                "Fractional Barrier %",
-                10.0
-            ]
+            "stats": {
+                "General": [
+                    "Ailment Resistance %",
+                    5.0,
+                    "Aggro %",
+                    -10.0
+                ],
+                "Magic Device only": [
+                    "Ailment Resistance %",
+                    5.0,
+                    "Aggro %",
+                    -10.0
+                ]
+            },
+            "source": [],
+            "recipe": "",
+            "type": "Scroll",
+            "category": "Sub Weapon"
         },
-        "source": [],
-        "recipe": ""
-    },
-    {
-        "name": "Wind Ninjutsu Scroll",
-        "origin": -1,
-        "base": 0,
-        "stab": 0,
-        "pot": 0,
-        "amount": [
-            1,
-            2,
-            "Wood"
-        ],
-        "stats": {
-            "General": [
-                "ASPD",
-                250.0,
-                "Critical Rate",
-                5.0
+        {
+            "name": "Earth Ninjutsu Scroll",
+            "origin": -1,
+            "base": 0,
+            "stab": 0,
+            "pot": 0,
+            "amount": [
+                1,
+                2,
+                "Wood"
             ],
-            "Katana only": [
-                "ASPD",
-                250.0,
-                "Critical Rate",
-                5.0
-            ]
+            "stats": {
+                "General": [
+                    "MaxHP %",
+                    10.0,
+                    "Fractional Barrier %",
+                    10.0
+                ],
+                "1-Handed Sword only": [
+                    "MaxHP %",
+                    10.0,
+                    "Fractional Barrier %",
+                    10.0
+                ]
+            },
+            "source": [],
+            "recipe": "",
+            "type": "Scroll",
+            "category": "Sub Weapon"
         },
-        "source": [],
-        "recipe": ""
-    },
-    {
-        "name": "Dark Ninjutsu Scroll",
-        "origin": -1,
-        "base": 0,
-        "stab": 0,
-        "pot": 0,
-        "amount": [
-            1,
-            2,
-            "Wood"
-        ],
-        "stats": {
-            "General": [
-                "Aggro %",
-                -10.0
-            ]
+        {
+            "name": "Wind Ninjutsu Scroll",
+            "origin": -1,
+            "base": 0,
+            "stab": 0,
+            "pot": 0,
+            "amount": [
+                1,
+                2,
+                "Wood"
+            ],
+            "stats": {
+                "General": [
+                    "ASPD",
+                    250.0,
+                    "Critical Rate",
+                    5.0
+                ],
+                "Katana only": [
+                    "ASPD",
+                    250.0,
+                    "Critical Rate",
+                    5.0
+                ]
+            },
+            "source": [],
+            "recipe": "",
+            "type": "Scroll",
+            "category": "Sub Weapon"
         },
-        "source": [],
-        "recipe": ""
-    }
-]}
+        {
+            "name": "Dark Ninjutsu Scroll",
+            "origin": -1,
+            "base": 0,
+            "stab": 0,
+            "pot": 0,
+            "amount": [
+                1,
+                2,
+                "Wood"
+            ],
+            "stats": {
+                "General": [
+                    "Aggro %",
+                    -10.0
+                ]
+            },
+            "source": [],
+            "recipe": "",
+            "type": "Scroll",
+            "category": "Sub Weapon"
+        }
+    ]
+}
