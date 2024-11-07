@@ -1,5 +1,5 @@
 {
-  "version": 414999,
+  "version": 415006,
   "data": [
     {
       "name": "Belt Eyepatch",
@@ -27059,6 +27059,200 @@
       "category": "Body Wear",
       "recipe": "",
       "source": [["Zeagrysta", 0, "High Difficulty Boss Event", []]]
+    },
+    {
+      "name": "Champion Belt",
+      "origin": 2,
+      "base": 100.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": ["Critical Rate %", 20.0, "MaxMP", 100.0],
+        "Dual Swords only": ["Stability %", 12.0],
+        "2-Handed Sword only": ["Short Range Damage %", 10.0],
+        "Dagger only": ["Physical Pierce %", 14.0],
+        "Ninjutsu Scroll only": ["Motion Speed %", 6.0]
+      },
+      "type": "Additional Gear",
+      "category": "Body Wear",
+      "recipe": "",
+      "source": [["Megiston", -1, "Anniversary 9 Venue", []]]
+    },
+    {
+      "name": "Shiny Viridian Hair Ornament",
+      "origin": 2,
+      "base": 234.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "Unsheathe Attack %",
+          12.0,
+          "Accuracy %",
+          24.0,
+          "Fractional Barrier %",
+          18.0,
+          "Tumble Unavailable",
+          1.0
+        ]
+      },
+      "type": "Additional Gear",
+      "category": "Body Wear",
+      "recipe": "",
+      "source": [["Castila", 0, "High Difficulty Boss Event", []]]
+    },
+    {
+      "name": "Rabbit Mitarashi Dango",
+      "origin": 2,
+      "base": 32.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "MaxHP %",
+          3200.0,
+          "MaxHP %",
+          30.0,
+          "Stability %",
+          3.0,
+          "ASPD",
+          -300.0
+        ]
+      },
+      "type": "Additional Gear",
+      "category": "Body Wear",
+      "recipe": "",
+      "source": [["Kubbit", 180, "Tsukimi Event Chapter 3", []]]
+    },
+    {
+      "name": "Mochi Pounder Rabbit",
+      "origin": 1,
+      "base": 225.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "MATK %",
+          10.0,
+          "Critical Rate %",
+          20.0,
+          "CSPD %",
+          30.0,
+          "Wind resistance %",
+          -30.0
+        ],
+        "Shield only": ["Magic Pierce %", 15.0],
+        "Dagger only": ["Motion Speed %", 5.0]
+      },
+      "type": "Additional Gear",
+      "category": "Body Wear",
+      "recipe": {
+        "lvl": 0,
+        "diff": 0,
+        "mats": [
+          "Spina",
+          158,
+          "Uraluna Wood",
+          3,
+          "Vigorous Dango",
+          1,
+          "Wood",
+          600,
+          "Mana",
+          100
+        ]
+      },
+      "source": [
+        ["NPC Blacksmith", 0, "Limited Recipt - NPC Blacksmith | Sofya", []]
+      ]
+    },
+    {
+      "name": "Dango Hat (Skewer)",
+      "origin": 1,
+      "base": 169.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "STR %",
+          9.0,
+          "Unsheathe Attack %",
+          12.0,
+          "Physical Pierce %",
+          15.0,
+          "MaxHP",
+          3600.0,
+          "Reduce Dmg (Floor) %",
+          -36.0
+        ]
+      },
+      "type": "Additional Gear",
+      "category": "Body Wear",
+      "recipe": {
+        "lvl": 0,
+        "diff": 0,
+        "mats": [
+          "Spina",
+          158,
+          "Uraluna Wood",
+          9,
+          "Vigorous Dango",
+          2,
+          "Medicine",
+          600,
+          "Mana",
+          200
+        ]
+      },
+      "source": [
+        ["NPC Blacksmith", 0, "Limited Recipt - NPC Blacksmith | Sofya", []]
+      ]
+    },
+    {
+      "name": "Fluffy Rabbit Hood",
+      "origin": 1,
+      "base": 219.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "ATK %",
+          11.0,
+          "MATK %",
+          11.0,
+          "MaxMP",
+          300.0,
+          "Aggro %",
+          -30.0
+        ]
+      },
+      "type": "Additional Gear",
+      "category": "Body Wear",
+      "recipe": {
+        "lvl": 0,
+        "diff": 0,
+        "mats": [
+          "Spina",
+          158,
+          "Moon Rabbit Hair",
+          3,
+          "Uraluna Wood",
+          1,
+          "Cloth",
+          600,
+          "Beast",
+          300
+        ]
+      },
+      "source": [
+        ["NPC Blacksmith", 0, "Limited Recipt - NPC Blacksmith | Sofya", []]
+      ]
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": 414999,
+  "version": 415006,
   "data": [
     {
       "name": "Magi Klug",
@@ -8721,7 +8721,7 @@
     },
     {
       "name": "Viridian Magic Device",
-      "origin": -1,
+      "origin": 2,
       "base": 462.0,
       "stab": 0,
       "pot": 0,
@@ -8750,7 +8750,39 @@
           60.0
         ]
       },
-      "source": [],
+      "source": [["Castila", 0, "High Difficulty Boss Event", []]],
+      "recipe": "",
+      "type": "Magic Devices",
+      "category": "Main Weapon"
+    },
+    {
+      "name": "Moon Mochi Rabbit",
+      "origin": 2,
+      "base": 234.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "Earth Element",
+          1.0,
+          "% stronger against Wind",
+          10.0,
+          "MATK %",
+          10.0,
+          "Magic Pierce %",
+          20.0,
+          "CSPD %",
+          40.0,
+          "Critical Rate %",
+          80.0,
+          "Motion Speed %",
+          5.0,
+          "Reduce DMG (Explosion) %",
+          60.0
+        ]
+      },
+      "source": [["Fabbit", 0, "Tsukimi Event Chapter 3", []]],
       "recipe": "",
       "type": "Magic Devices",
       "category": "Main Weapon"

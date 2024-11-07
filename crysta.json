@@ -1,5 +1,5 @@
 {
-  "version": 414999,
+  "version": 415006,
   "data": [
     {
       "name": "Accuracy+10 ",
@@ -9003,6 +9003,48 @@
       "source": [["Zeagrysta", 0, "High Difficulty Boss Event"]],
       "recipe": {},
       "upgrade": "Zeagrysta"
+    },
+    {
+      "name": "Castila",
+      "type": 4,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "Short Range Damage %",
+          12.0,
+          "Long Range Damage %",
+          6.0,
+          "ASPD",
+          -900.0
+        ],
+        "Magic Device only": ["Motion Speed %", 5.0],
+        "Ninjutsu Scroll only": ["Magic Pierce %", 10.0]
+      },
+      "source": [["Castila", 0, "High Difficulty Boss Event"]],
+      "recipe": {},
+      "upgrade": "Castila"
+    },
+    {
+      "name": "Fubbit",
+      "type": 6,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "ATK %",
+          6.0,
+          "Physical Pierce %",
+          20.0,
+          "Aggro %",
+          -15.0,
+          "Ailment Resistance %",
+          -15.0,
+          "MaxMP",
+          -200.0
+        ]
+      },
+      "source": [["Fubbit", 0, "Tsukimi Event Chapter 3"]],
+      "recipe": {},
+      "upgrade": "Devil Dango"
     }
   ]
 }
