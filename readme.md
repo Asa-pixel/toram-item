@@ -365,9 +365,9 @@ while (i < examples_mats.length) {
 
 - patch 27 June 2024 (_checked_)
 - patch 11 July 2024 (_checked_)
-- patch 22 August 2024 (_Process_)
-- patch 29 August 2024 (_Process_)
-- patch 19 September 2024 (_Process_)
+- patch 22 August 2024 (_checked_)
+- patch 29 August 2024 (_checked_)
+- patch 19 September 2024 (_checked_)
 - patch 10 October 2024 (_Process_)
 - patch 24 October 2024 (_Process_)
 

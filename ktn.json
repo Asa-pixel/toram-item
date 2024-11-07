@@ -1,5 +1,5 @@
 {
-  "version": 414999,
+  "version": 415006,
   "data": [
     {
       "name": "9th Anniv Katana",
@@ -8044,6 +8044,37 @@
           900
         ]
       },
+      "type": "Katana",
+      "category": "Main Weapon"
+    },
+    {
+      "name": "Tsukikage-Sakuya",
+      "origin": 2,
+      "base": 226.0,
+      "stab": 70.0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "Dark Element",
+          1.0,
+          "% stronger against Dark",
+          25.0,
+          "Short Range Damage %",
+          10.0,
+          "Physical Pierce %",
+          10.0,
+          "Motion Speed %",
+          10.0,
+          "Light resistance %",
+          30.0,
+          "Dark resistance %",
+          30.0
+        ],
+        "Heavy Armor only": ["ASPD", 900.0, "Guard Break %", 30.0]
+      },
+      "source": [["Fubbit", 0, "Tsukimi Event Chapter 3", []]],
+      "recipe": "",
       "type": "Katana",
       "category": "Main Weapon"
     }

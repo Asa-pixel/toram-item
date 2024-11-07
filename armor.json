@@ -1,5 +1,5 @@
 {
-  "version": 414999,
+  "version": 415006,
   "data": [
     {
       "name": "Fighter Uniform",
@@ -10011,6 +10011,177 @@
       "category": "Body Wear",
       "recipe": "",
       "source": [["Zeagrysta", 0, "High Difficulty Boss Event", []]]
+    },
+    {
+      "name": "Shiny Viridian Garb",
+      "origin": 2,
+      "base": 256.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "MaxMP",
+          1200.0,
+          "ATK %",
+          4.0,
+          "MATK %",
+          4.0,
+          "Attack MP Recovery",
+          4.0,
+          "Critical Rate",
+          20.0,
+          "Critical Rate %",
+          60.0,
+          "Motion Speed %",
+          1.0,
+          "Neutral Resistance %",
+          20.0
+        ]
+      },
+      "type": "Armor",
+      "category": "Body Wear",
+      "recipe": "",
+      "source": [["Castila", 0, "High Difficulty Boss Event", []]]
+    },
+    {
+      "name": "Shiny Viridian Garb (Power)",
+      "origin": 2,
+      "base": 171.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "MaxMP",
+          600.0,
+          "AGI %",
+          10.0,
+          "ATK %",
+          12.0,
+          "Critical Rate",
+          30.0,
+          "Critical Rate %",
+          40.0,
+          "Motion Speed %",
+          4.0,
+          "Neutral Resistance %",
+          30.0
+        ]
+      },
+      "type": "Armor",
+      "category": "Body Wear",
+      "recipe": "",
+      "source": [["Castila", 0, "High Difficulty Boss Event", []]]
+    },
+    {
+      "name": "Shiny Viridian Garb (Smart)",
+      "origin": 2,
+      "base": 171.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "MaxMP",
+          600.0,
+          "DEX %",
+          10.0,
+          "MATK %",
+          12.0,
+          "Critical Rate",
+          30.0,
+          "Critical Rate %",
+          40.0,
+          "Motion Speed %",
+          4.0,
+          "Neutral Resistance %",
+          30.0
+        ]
+      },
+      "type": "Armor",
+      "category": "Body Wear",
+      "recipe": "",
+      "source": [["Castila", 0, "High Difficulty Boss Event", []]]
+    },
+    {
+      "name": "Shiny Viridian Garb (Robust)",
+      "origin": 2,
+      "base": 342.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "MaxMP",
+          600.0,
+          "VIT %",
+          10.0,
+          "Attack MP Recovery",
+          12.0,
+          "Critical Rate",
+          40.0,
+          "Critical Rate %",
+          20.0,
+          "Motion Speed %",
+          5.0,
+          "Neutral Resistance %",
+          40.0
+        ]
+      },
+      "type": "Armor",
+      "category": "Body Wear",
+      "recipe": "",
+      "source": [["Castila", 0, "High Difficulty Boss Event", []]]
+    },
+    {
+      "name": "Fluffy Rabbit Garb",
+      "origin": 1,
+      "base": 324.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "STR %",
+          10.0,
+          "Unsheathe Attack %",
+          11.0,
+          "MaxMP",
+          400.0,
+          "ASPD",
+          1100.0,
+          "Fire resistance %",
+          -30.0
+        ],
+        "Heavy Armor only": [
+          "Physical Resistance %",
+          25.0,
+          "Magic Resistance %",
+          25.0
+        ]
+      },
+      "type": "Armor",
+      "category": "Body Wear",
+      "recipe": {
+        "lvl": 0,
+        "diff": 0,
+        "mats": [
+          "Spina",
+          158,
+          "Moon Rabbit Hair",
+          9,
+          "Uraluna Wood",
+          3,
+          "Cloth",
+          600,
+          "Beast",
+          300
+        ]
+      },
+      "source": [
+        ["NPC Blacksmith", 0, "Limited Recipt - NPC Blacksmith | Sofya", []]
+      ]
     }
   ]
 }
