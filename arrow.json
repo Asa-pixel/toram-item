@@ -1764,6 +1764,24 @@
       "recipe": "",
       "type": "Arrow",
       "category": "Sub Weapon"
+    },
+    {
+      "name": "Dry Water Arrow",
+      "origin": 2,
+      "base": 206.0,
+      "stab": 10.0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": ["Water Element", 1.0, "MaxHP %", 15.0, "Aggro %", 30.0]
+      },
+      "source": [
+        ["Coofer", 256, "Umidus Valley: Area 2", []],
+        ["Coofer", 257, "Umidus Valley: Cliff Path", []]
+      ],
+      "recipe": "",
+      "type": "Arrow",
+      "category": "Sub Weapon"
     }
   ]
 }

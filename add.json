@@ -27167,7 +27167,7 @@
         ]
       },
       "source": [
-        ["NPC Blacksmith", 0, "Limited Recipt - NPC Blacksmith | Sofya", []]
+        ["NPC Blacksmith", 0, "Limited Recipe - NPC Blacksmith | Sofya", []]
       ]
     },
     {
@@ -27210,7 +27210,7 @@
         ]
       },
       "source": [
-        ["NPC Blacksmith", 0, "Limited Recipt - NPC Blacksmith | Sofya", []]
+        ["NPC Blacksmith", 0, "Limited Recipe - NPC Blacksmith | Sofya", []]
       ]
     },
     {
@@ -27251,8 +27251,137 @@
         ]
       },
       "source": [
-        ["NPC Blacksmith", 0, "Limited Recipt - NPC Blacksmith | Sofya", []]
+        ["NPC Blacksmith", 0, "Limited Recipe - NPC Blacksmith | Sofya", []]
       ]
+    },
+    {
+      "name": "Rafflesia Hat",
+      "origin": 2,
+      "base": 187.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "Physical Resistance %",
+          20.0,
+          "Magic Resistance %",
+          20.0,
+          "Aggro %",
+          -20.0
+        ]
+      },
+      "type": "Additional Gear",
+      "category": "Body Wear",
+      "recipe": "",
+      "source": [
+        ["Rosalila", 250, "Siccus Plains", []],
+        ["Rosalila", 252, "Siccus Plains", []]
+      ]
+    },
+    {
+      "name": "Yermo Turban",
+      "origin": 2,
+      "base": 140.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "STR %",
+          10.0,
+          "INT %",
+          10.0,
+          "Physical Pierce %",
+          10.0,
+          "Magic Pierce %",
+          10.0
+        ]
+      },
+      "type": "Additional Gear",
+      "category": "Body Wear",
+      "recipe": "",
+      "source": [
+        ["Nygana", 251, "Siccus Plains", []],
+        ["Nygana", 253, "Siccus Plains", []]
+      ]
+    },
+    {
+      "name": "Dancer Skirt",
+      "origin": 1,
+      "base": 212.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "Evasion Recharge %",
+          30.0,
+          "CSPD",
+          120.0,
+          "Accuracy %",
+          60.0,
+          "Absolute Accuracy %",
+          15.0
+        ]
+      },
+      "type": "Additional Gear",
+      "category": "Body Wear",
+      "recipe": {
+        "lvl": 0,
+        "diff": 0,
+        "mats": [
+          "Spina",
+          1375,
+          "Dandelion Fluff",
+          25,
+          "Spiral Tree Bark",
+          15,
+          "Cloth",
+          500,
+          "Mana",
+          180
+        ]
+      },
+      "source": [["NPC", 0, "Sofya City: Blacksmith", []]]
+    },
+    {
+      "name": "Devil Veil",
+      "origin": 1,
+      "base": 106.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "MATK %",
+          11.0,
+          "Stability %",
+          10.0,
+          
+          "Guard Break %",
+          9.0
+        ]
+      },
+      "type": "Additional Gear",
+      "category": "Body Wear",
+      "recipe": {
+        "lvl": 0,
+        "diff": 0,
+        "mats": [
+          "Spina",
+          1375,
+          "Creepy Choker",
+          18,
+          "Burnin Flower",
+          6,
+          "Deadly Spiral Horn",
+          2,
+          "Cloth",
+          680
+        ]
+      },
+      "source": [["NPC", 0, "Sofya City: Blacksmith", []]]
     }
   ]
 }

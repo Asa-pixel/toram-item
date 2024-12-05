@@ -9045,6 +9045,36 @@
       "source": [["Fubbit", 0, "Tsukimi Event Chapter 3"]],
       "recipe": {},
       "upgrade": "Devil Dango"
+    },
+    {
+      "name": "Dandolion",
+      "type": 7,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": ["MaxMP", 500.0, "Attack MP Recovery", 4.0, "CSPD", 300.0],
+        "Light Armor only": ["Stability %", 6.0]
+      },
+      "source": [["Dondolion", 308, "Umidus Valley: Cliff Path"]],
+      "recipe": {},
+      "upgrade": "Super Death Mushroom"
+    },
+    {
+      "name": "Menti",
+      "type": 6,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": ["MATK %", 11.0, "MaxMP", 300.0, "Guard Break %", 14.0],
+        "Light Armor only": ["ASPD", 250.0]
+      },
+      "source": [
+        ["Menti", 273, "Umidus Valley: Area 3"],
+        ["Menti", 283, "Umidus Valley: Area 3"],
+        ["Menti", 293, "Umidus Valley: Area 3"],
+        ["Menti", 303, "Umidus Valley: Area 3"],
+        ["Menti", 323, "Umidus Valley: Area 3"]
+      ],
+      "recipe": {},
+      "upgrade": "Oculasignio"
     }
   ]
 }
