@@ -8871,7 +8871,7 @@
       "base": 512.0,
       "stab": 70.0,
       "pot": 0,
-      "amount": [0],
+      "amount": [0, 0, ""],
       "stats": {
         "General": [
           "STR %",
@@ -8890,6 +8890,68 @@
         "Shield only": ["Stun Unavailable", 1.0]
       },
       "source": [["Bullamius", 239, "Storage Yard: Area 2", []]],
+      "recipe": "",
+      "type": "Knuckles",
+      "category": "Main Weapon"
+    },
+    {
+      "name": "Exorcist Fists",
+      "origin": 2,
+      "base": 317.0,
+      "stab": 90.0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "Light Element",
+          1.0,
+          "Long Range Damage %",
+          9.0,
+          "Additional Magic %",
+          150.0,
+          "Dark resistance %",
+          15.0
+        ]
+      },
+      "source": [
+        ["Raptar", 256, "Umidus Valley: Area 1", []],
+        ["Raptar", 257, "Umidus Valley: Area 2", []],
+        ["Raptar", 259, "Umidus Valley: Cliff Path", []]
+      ],
+      "recipe": "",
+      "type": "Knuckles",
+      "category": "Main Weapon"
+    },
+    {
+      "name": "Anguish Knuckles",
+      "origin": 2,
+      "base": 408.0,
+      "stab": 90.0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "Dark Element",
+          1.0,
+          "% stronger against Light",
+          10.0,
+          "ATK %",
+          11.0,
+          "Physical Pierce %",
+          20.0,
+          "ASPD",
+          900.0,
+          "Anticipate %",
+          30.0
+        ]
+      },
+      "source": [
+        ["Menti", 273, "Umidus Valley: Area 3"],
+        ["Menti", 283, "Umidus Valley: Area 3"],
+        ["Menti", 293, "Umidus Valley: Area 3"],
+        ["Menti", 303, "Umidus Valley: Area 3"],
+        ["Menti", 323, "Umidus Valley: Area 3"]
+      ],
       "recipe": "",
       "type": "Knuckles",
       "category": "Main Weapon"

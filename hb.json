@@ -11,9 +11,7 @@
       "stats": {
         "General": []
       },
-      "source": [
-        ["NPC", 0, "Sofya City: Blacksmith", ["#000000", "#000000", "#000000"]]
-      ],
+      "source": [["NPC", 0, "Sofya City: Blacksmith", []]],
       "recipe": "",
       "type": "Halberd",
       "category": "Main Weapon"
@@ -28,7 +26,7 @@
       "stats": {
         "General": []
       },
-      "source": [["Player", 0, "N/A", ["#000000", "#000000", "#000000"]]],
+      "source": [["Player", 0, "N/A", []]],
       "recipe": "",
       "type": "Halberd",
       "category": "Main Weapon"
@@ -43,9 +41,7 @@
       "stats": {
         "General": []
       },
-      "source": [
-        ["NPC", 0, "Sofya City: Blacksmith", ["#000000", "#000000", "#000000"]]
-      ],
+      "source": [["NPC", 0, "Sofya City: Blacksmith", []]],
       "recipe": "",
       "type": "Halberd",
       "category": "Main Weapon"
@@ -60,7 +56,7 @@
       "stats": {
         "General": []
       },
-      "source": [["Player", 0, "N/A", ["#000000", "#000000", "#000000"]]],
+      "source": [["Player", 0, "N/A", []]],
       "recipe": "",
       "type": "Halberd",
       "category": "Main Weapon"
@@ -75,9 +71,7 @@
       "stats": {
         "General": []
       },
-      "source": [
-        ["NPC", 0, "Sofya City: Blacksmith", ["#000000", "#000000", "#000000"]]
-      ],
+      "source": [["NPC", 0, "Sofya City: Blacksmith", []]],
       "recipe": "",
       "type": "Halberd",
       "category": "Main Weapon"
@@ -92,7 +86,7 @@
       "stats": {
         "General": []
       },
-      "source": [["Player", 0, "N/A", ["#000000", "#000000", "#000000"]]],
+      "source": [["Player", 0, "N/A", []]],
       "recipe": "",
       "type": "Halberd",
       "category": "Main Weapon"
@@ -107,9 +101,7 @@
       "stats": {
         "General": []
       },
-      "source": [
-        ["NPC", 0, "Sofya City: Blacksmith", ["#000000", "#000000", "#000000"]]
-      ],
+      "source": [["NPC", 0, "Sofya City: Blacksmith", []]],
       "recipe": "",
       "type": "Halberd",
       "category": "Main Weapon"
@@ -124,7 +116,7 @@
       "stats": {
         "General": []
       },
-      "source": [["Player", 0, "N/A", ["#000000", "#000000", "#000000"]]],
+      "source": [["Player", 0, "N/A", []]],
       "recipe": "",
       "type": "Halberd",
       "category": "Main Weapon"
@@ -139,9 +131,7 @@
       "stats": {
         "General": []
       },
-      "source": [
-        ["NPC", 0, "Sofya City: Blacksmith", ["#000000", "#000000", "#000000"]]
-      ],
+      "source": [["NPC", 0, "Sofya City: Blacksmith", []]],
       "recipe": "",
       "type": "Halberd",
       "category": "Main Weapon"
@@ -8894,6 +8884,148 @@
       },
       "source": [["Eripmav (Very Hard)", 275, "Risus Valley: Depths", []]],
       "recipe": "",
+      "type": "Halberd",
+      "category": "Main Weapon"
+    },
+    {
+      "name": "Avid Glaive",
+      "origin": 1,
+      "base": 852.0,
+      "stab": 60.0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "Wind Element",
+          1.0,
+          "% stronger against Water",
+          10.0,
+          "ATK %",
+          10.0,
+          "Attack MP Recovery",
+          30.0,
+          "Critical Rate",
+          5.0,
+          "Evasion Recharge %",
+          10.0,
+          "Anticipate %",
+          50.0
+        ]
+      },
+      "source": ["NPC", 0, "Sofya City: Blacksmith", []],
+      "recipe": {
+        "lvl": 0,
+        "diff": 0,
+        "mats": [
+          "Spina",
+          2650,
+          "Raging Heart",
+          1,
+          "Bovinari Crystal Horn",
+          1,
+          "Beast",
+          1650,
+          "Metal",
+          1000
+        ]
+      },
+      "type": "Halberd",
+      "category": "Main Weapon"
+    },
+    {
+      "name": "Carbon Lance",
+      "origin": 1,
+      "base": 726.0,
+      "stab": 60.0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "Fire Element",
+          1.0,
+          "ASPD",
+          1100,
+          "CSPD",
+          800,
+          "Water resistance %",
+          -10
+        ]
+      },
+      "source": ["NPC", 0, "Sofya City: Blacksmith", []],
+      "recipe": {
+        "lvl": 0,
+        "diff": 0,
+        "mats": [
+          "Spina",
+          1200,
+          "Sharp Dorsal Blade",
+          20,
+          "Fiery Horn",
+          10,
+          "Metal",
+          350,
+          "Wood",
+          250
+        ]
+      },
+      "type": "Halberd",
+      "category": "Main Weapon"
+    },
+
+    {
+      "name": "Avid Glaive",
+      "origin": 0,
+      "base": 852.0,
+      "stab": 60.0,
+      "pot": 58,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": []
+      },
+      "source": ["Player", 0, "", []],
+      "recipe": {
+        "lvl": 260,
+        "diff": 265,
+        "mats": [
+          "Raging Heart",
+          1,
+          "Bovinari Crystal Horn",
+          1,
+          "Beast",
+          1650,
+          "Metal",
+          1000
+        ]
+      },
+      "type": "Halberd",
+      "category": "Main Weapon"
+    },
+    {
+      "name": "Carbon Lance",
+      "origin": 0,
+      "base": 726.0,
+      "stab": 60.0,
+      "pot": 54,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+        ]
+      },
+      "source": ["Player", 0, "", []],
+      "recipe": {
+        "lvl": 235,
+        "diff": 240,
+        "mats": [
+          "Sharp Dorsal Blade",
+          20,
+          "Fiery Horn",
+          10,
+          "Metal",
+          350,
+          "Wood",
+          250
+        ]
+      },
       "type": "Halberd",
       "category": "Main Weapon"
     }

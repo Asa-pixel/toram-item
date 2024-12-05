@@ -9517,6 +9517,70 @@
       "recipe": "",
       "type": "One Handed Sword",
       "category": "Main Weapon"
+    },
+    {
+      "name": "Erde Sword",
+      "origin": 2,
+      "base": 454.0,
+      "stab": 80.0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "Earth Element",
+          1.0,
+          "MaxHP",
+          5000.0,
+          "MaxHP %",
+          25.0,
+          "Critical Rate",
+          20.0
+        ]
+      },
+      "source": [
+        ["Brakz", 257, "Umidus Valley: Area 1", []],
+        ["Brakz", 258, "Umidus Valley: Area 2", []],
+        ["Brakz", 258, "Umidus Valley: Cliff Path", []]
+      ],
+      "recipe": "",
+      "type": "One Handed Sword",
+      "category": "Main Weapon"
+    },
+    {
+      "name": "Anguish Sword",
+      "origin": 2,
+      "base": 584.0,
+      "stab": 70.0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": [
+          "Dark Element",
+          1.0,
+          "% stronger against Light",
+          10.0,
+          "ATK %",
+          11.0,
+          "Physical Pierce %",
+          20,
+          "ASPD",
+          900,
+          "Guard Break %",
+          30.0,
+          "Stability %",
+          10.0
+        ]
+      },
+      "source": [
+        ["Menti", 273, "Umidus Valley: Area 3"],
+        ["Menti", 283, "Umidus Valley: Area 3"],
+        ["Menti", 293, "Umidus Valley: Area 3"],
+        ["Menti", 303, "Umidus Valley: Area 3"],
+        ["Menti", 323, "Umidus Valley: Area 3"]
+      ],
+      "recipe": "",
+      "type": "One Handed Sword",
+      "category": "Main Weapon"
     }
   ]
 }

@@ -4562,6 +4562,21 @@
       "recipe": "",
       "type": "Special Gear",
       "category": "Body Wear"
+    },
+    {
+      "name": "Pyroxene Nugget",
+      "origin": 2,
+      "base": 0.0,
+      "stab": 0,
+      "pot": 0,
+      "amount": [0, 0, ""],
+      "stats": {
+        "General": ["MaxMP", 400.0, "% stronger against Dark", 5.0, "Aggro %", -25.0] 
+      },
+      "source": [["Pojo", 249, "Siccus Plains", []]],
+      "recipe": "",
+      "type": "Special Gear",
+      "category": "Body Wear"
     }
   ]
 }
